@@ -55,7 +55,7 @@ public class Recursion_3 {
 			return;
 		}
 		String ops = options(digits.charAt(0));
-//		ops = "abcd"
+//		ops = "abc" , digits = 234
 		for(int i=0;i<ops.length();i++) {
 			LKC(digits.substring(1), path+ops.charAt(i));
 		}
